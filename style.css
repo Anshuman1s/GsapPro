@@ -90,8 +90,8 @@ nav button{
     background-color: black;
     color: #fff;
     border-radius: 10px;
-    padding: 20px 20px;
-    font-size: 25px;
+    padding: 17px 17px;
+    font-size: 15px;
     font-weight: 600;
 
 }
@@ -99,4 +99,81 @@ nav button{
     height: 100%;
     position: absolute;
     right: 0;
+}
+.sectionbottom1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:30px 100px ;
+}
+.sectionbottom1 img{
+    height: 100px;
+}
+.section2 .services {
+    /* background-color: red; */
+    padding: 40px 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content:center ;
+    gap: 50px;
+    margin-top: 30px;
+
+}
+.services h3{
+    background-color: #9AE975;
+    font-weight: 500;
+    padding:0 5px 3px 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: 'Mooli';
+
+}
+.services p{
+    width: 60%;
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+.container{
+    height: 85%;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.elem{
+    flex-shrink: 0;
+    height: 200px;
+    width: 47%;
+    /* background-color: red; */
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 0px 10px 0px black;
+    padding:30px ;
+    display: flex;
+}
+.elempart1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.elempart2{
+    height: 100%;
+    width: 50%;
+}
+.elempart2 img{
+    height: 100%;
+    margin-left: 100px;
+    margin-bottom:70px ;
+}
+.elempart1 h2{
+    
+    font-size:30px;
+    background-color: #9AE975;
+    font-family: 'Mooli';
+    font-weight: 500;
+    width: 80%;
 }
